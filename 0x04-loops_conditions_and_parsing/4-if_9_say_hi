@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display "Best School" 10 times; on 9th iteration also say "Hi"
+count=1; while [ $count -le 10 ]; do [ $count -eq 9 ] && echo -e "Best School\nHi" || echo "Best School"; ((count++)); done

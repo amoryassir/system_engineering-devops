@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod +x 9-John_Doe
+chmod 007 hello
